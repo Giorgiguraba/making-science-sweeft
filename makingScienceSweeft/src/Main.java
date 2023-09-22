@@ -1,13 +1,16 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        //First task
         System.out.println(Tasks.singleNumber(new int[]{0,1}));
+        //Second task 
         System.out.println(Tasks.minSplit(4));
+        //Third task
         System.out.println(Tasks.notContains(new int[]{2,3,4,5,7}));
+        //Fourth task
         System.out.println(Tasks.addBinary("1011", "1011"));
+        //Fifth task
         System.out.println(Tasks.countVariants(20));
-
+        //Sixth task
         MyStructure<Integer> customDS = new MyStructure<>();
         customDS.add(1);
         customDS.add(2);
