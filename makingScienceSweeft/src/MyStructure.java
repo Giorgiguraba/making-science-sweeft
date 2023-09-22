@@ -17,8 +17,8 @@ public class MyStructure<T> {
 
     public MyStructure() {
         map = new HashMap<>();
-        head = new Node<>(null); // Dummy head node
-        tail = new Node<>(null); // Dummy tail node
+        head = new Node<>(null); 
+        tail = new Node<>(null); 
         head.next = tail;
         tail.prev = head;
     }
