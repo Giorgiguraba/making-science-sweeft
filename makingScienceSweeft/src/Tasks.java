@@ -44,8 +44,9 @@ public class Tasks {
 //        for(var num : array){
 //            if(num <= smallest){
 //                smallest = num + 1;
-//            }else
+//            }else{
 //                break;
+//             }
 //        }
 //        return smallest;
         var numSet = new HashSet<Integer>();
